@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100%;
+}
+
+.box{
+    width: 80%;
+    margin: 100px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid darkseagreen;
+    height: 200px;
+    transform: translateY(-400px);
+    transition: 1s;
+}
+
+button{
+    padding: 10px;
+    cursor: pointer;
+}
